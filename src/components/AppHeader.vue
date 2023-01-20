@@ -1,5 +1,4 @@
-<template>
-  <div>
+<template>  <div>
     <button v-show="loggedIn">LogOut</button>
   </div>
 </template>
@@ -8,10 +7,8 @@
 export default {
   data() {
     return {
-      loggedIn: true,
+      loggedIn: false,
     };
   },
 };
 </script>
-
-<style lang="scss" scoped></style>
