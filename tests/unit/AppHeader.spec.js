@@ -1,4 +1,5 @@
-import AppHeader from "@/components/AppHeader.vue";import { mount } from "@vue/test-utils";
+import AppHeader from "@/components/AppHeader.vue";
+import { mount } from "@vue/test-utils";
 describe("AppHeader", () => {
   //caso 1
   test("Si el usuario no está authenticado, no mostrar el boton de salir", () => {
