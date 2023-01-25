@@ -1,4 +1,5 @@
-<template>  <div>
+<template>
+  <div>
     <button v-show="loggedIn">LogOut</button>
   </div>
 </template>
